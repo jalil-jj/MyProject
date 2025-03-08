@@ -1,0 +1,86 @@
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+/* .icons-wrapper{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+} */
+
+.icon {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: chocolate;
+}
+
+.button-wrapper {
+  border: 1px solid rgb(49, 49, 58);
+  padding: .5rem 1rem;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.button-wrapper a {
+  color: rgb(3, 15, 26);
+}
+
+.navbar .dropdown-toggle::after {
+  display: none;
+}
+
+.nav-item.main-menu:hover .dropdown-menu {
+  display: block;
+}
+
+/* نمایش منو هنگام هاور */
+.nav-item.main-menu:hover .dropdown-menu {
+  display: block;
+  position: absolute;
+  /* تنظیم موقعیت */
+  right: 100%;
+  /* منوی کشویی را به سمت راست منوی اصلی حرکت می‌دهیم */
+  top: 0;
+  /* منو از بالا به پایین حرکت نکند */
+}
+
+
+.first-menu {
+  width: 12rem;
+  text-align: start;
+}
+
+.first-menu li {
+  margin-bottom: 1rem;
+}
+
+.first-menu li a {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.first-menu li a:hover {
+  background-color: rgb(80, 72, 87);
+  color: aliceblue;
+}
+
+.second-menu {
+  width: 12rem;
+  text-align: start;
+}
+
+.second-menu li a {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.menu-icon{
+  font-size: 2.2rem;
+}

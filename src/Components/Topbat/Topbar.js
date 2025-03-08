@@ -9,15 +9,15 @@ import { IoIosArrowRoundBack } from "react-icons/io";
 export default function Topbar() {
     return (
         <div>
-            <nav class="navbar navbar-expand-md">
-                <div class="container">
+            <nav className="navbar navbar-expand-md">
+                <div className="container">
                     <h1 className='d-md-none'>سایت آموزشی من</h1>
                     <img src="./hat-graduation-svgrepo-com.svg" className='navbar-brand logo' alt="" />
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse text-center  justify-content-sm-between" id="navbarNav">
-                        <ul class="navbar-nav">
+                    <div className="collapse navbar-collapse text-center  justify-content-sm-between" id="navbarNav">
+                        <ul className="navbar-nav">
                             <li className="nav-item dropdown">
                                 <a
                                     className="nav-link dropdown-toggle"
@@ -84,11 +84,11 @@ export default function Topbar() {
                                     </li>
                                 </ul>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">همه دوره ها</a>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">همه دوره ها</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">مقالات</a>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">مقالات</a>
                             </li>
                         </ul>
                         <div className='d-flex align-items-center justify-content-center mt-2 gap-4'>

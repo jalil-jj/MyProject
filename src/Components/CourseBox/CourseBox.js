@@ -3,9 +3,9 @@ import { FaRegUser } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 
 
-export default function CourseBox() {
+export default function CourseBox({isSlider}) {
     return (
-        <div className='col-12 col-sm-6 col-lg-4'>
+        <div className='col-12 col-sm-6 col-lg-4' style={{width : `${isSlider && '100%'}`}}>
             <div class="card mt-3">
                 <img src="./images/courses/jango.png" class="card-img-top" alt="..." />
                 <div class="card-body">

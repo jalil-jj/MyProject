@@ -3,14 +3,20 @@ import Topbar from './Components/Topbat/Topbar'
 import Footer from './Components/Footer/Footer'
 import LastCourses from './Components/LastCourses/LastCourses'
 import HelpYou from './Components/HelpYou/HelpYou'
+import PopularCourses from './Components/PopularCourses/PopularCourses'
+// import Login from './Pages/Login/Login'
+import Signin from './Pages/Signin/Signin'
 
 export default function App() {
   return (
     <div>
       {/* <Topbar /> */}
-      {/* <Footer/> */}
       {/* <LastCourses /> */}
-      <HelpYou />
+      {/* <HelpYou /> */}
+      {/* <Footer/> */}
+      {/* <PopularCourses /> */}
+      {/* <Login /> */}
+      <Signin />
     </div>
   )
 }

@@ -4,8 +4,8 @@ import Footer from './Components/Footer/Footer'
 import LastCourses from './Components/LastCourses/LastCourses'
 import HelpYou from './Components/HelpYou/HelpYou'
 import PopularCourses from './Components/PopularCourses/PopularCourses'
-// import Login from './Pages/Login/Login'
 import Signin from './Pages/Signin/Signin'
+import Login from './Pages/Login/Login'
 
 export default function App() {
   return (
@@ -13,10 +13,10 @@ export default function App() {
       {/* <Topbar /> */}
       {/* <LastCourses /> */}
       {/* <HelpYou /> */}
-      {/* <Footer/> */}
       {/* <PopularCourses /> */}
+      {/* <Footer/> */}
+      {/* <Signin /> */}
       {/* <Login /> */}
-      <Signin />
     </div>
   )
 }

@@ -6,6 +6,7 @@ import HelpYou from './Components/HelpYou/HelpYou'
 import PopularCourses from './Components/PopularCourses/PopularCourses'
 import Signin from './Pages/Signin/Signin'
 import Login from './Pages/Login/Login'
+import Header from './Components/Header/Header'
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       {/* <Footer/> */}
       {/* <Signin /> */}
       {/* <Login /> */}
+      <Header />
     </div>
   )
 }

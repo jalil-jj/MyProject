@@ -1,3 +1,9 @@
+.footer{
+    margin-top: 5rem;
+    background: #f9f9f9; 
+    padding-bottom: 5rem;
+}
+
 .footer-top{
     width: 100%;
     /* background-color: aqua; */

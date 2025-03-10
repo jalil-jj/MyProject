@@ -10,7 +10,7 @@ import { RiArrowLeftWideLine } from "react-icons/ri";
 
 export default function Footer() {
     return (
-        <div>
+        <div className='footer'>
             <div className='container'>
                 <div className='footer-top d-flex align-items-center justify-content-between'>
                     <div className='d-flex align-items-center gap-3'>

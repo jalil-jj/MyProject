@@ -3,6 +3,11 @@
     height: 600px;
     background: linear-gradient(to right, #a8e063, #6abf8e);
     position: relative;
+    border-radius: 0 0 100px 100px;
+    -webkit-border-radius: 0 0 100px 100px;
+    -moz-border-radius: 0 0 100px 100px;
+    -ms-border-radius: 0 0 100px 100px;
+    -o-border-radius: 0 0 100px 100px;
 }
 
 .header-main {

@@ -1,0 +1,21 @@
+.popular-courses{
+    margin-top: 10rem;
+}
+
+.HelpYou{
+    margin-top: 10rem;
+}
+
+.accordion{
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+}
+
+.accordion h2 button{
+   font-size: 2rem;
+}
+
+.accordion-box{
+    box-shadow: 0 0px 20px 10px rgba(21, 216, 21, 0.2); 
+}
+

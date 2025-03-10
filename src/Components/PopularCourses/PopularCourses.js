@@ -11,7 +11,7 @@ import { Autoplay } from 'swiper/modules';
 
 export default function PopularCourses() {
     return (
-        <div>
+        <div className='popular-courses'>
             <SectionTitle
                 title='محبوب تریت دوره ها'
                 subTitle='انتخاب های شما همیشه بهترین هاست'

@@ -4,7 +4,7 @@ import HelpYouBox from '../HelpYouBox/HelpYouBox'
 
 export default function HelpYou() {
   return (
-    <div className='mt-5'>
+    <div className='HelpYou'>
       <SectionTitle
         title='ما چه کمکی بهتون میکنیم؟'
         subTitle='از شروع کار کنارتیم نمیزاریم آب تو دلت تکون بخوره'

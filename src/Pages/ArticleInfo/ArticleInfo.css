@@ -1,0 +1,58 @@
+.articleInfo{
+    background-color: rgba(199, 195, 195, 0.315);
+}
+
+.article-menu li{
+   margin: 1rem 0;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+   padding-bottom: 1rem;
+}
+
+.article-menu li:last-child {
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.article-img {
+    width: 100%;
+    object-fit: cover;
+    margin: 4rem 0;
+}
+
+.accordion{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+
+.offer{
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.offer-box{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    margin: 10px;
+    background: #f9f9f9; /* پس‌زمینه روشن برای خوانایی بهتر */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* سایه ملایم */
+}
+
+.offer-box h3{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.offer-box p{
+    margin-top: 1rem;
+}

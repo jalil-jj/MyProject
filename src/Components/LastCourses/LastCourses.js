@@ -21,7 +21,6 @@ export default function LastCourses() {
                            <CourseBox />
                            <CourseBox />
                            <CourseBox />
-                        
                     </div>
                 </div>
             </div>

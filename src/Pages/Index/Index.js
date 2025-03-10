@@ -5,6 +5,7 @@ import LastCourses from '../../Components/LastCourses/LastCourses'
 import PopularCourses from '../../Components/PopularCourses/PopularCourses'
 import HelpYou from '../../Components/HelpYou/HelpYou'
 import Accordion from '../../Components/Accordion/Accordion'
+import LastArticles from '../../Components/LastArticles/LastArticles'
 
 import './index.css'
 
@@ -12,12 +13,13 @@ import './index.css'
 export default function Index() {
   return (
     <>
-      <Header />
+       <Header />
       <LastCourses />
       <PopularCourses />
+      <LastArticles />
       <HelpYou />
       <Accordion />
-      <Footer />
+      <Footer /> 
     </>
   )
 }

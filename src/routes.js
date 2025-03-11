@@ -3,6 +3,7 @@ import Login from "./Pages/Login/Login";
 import Signin from "./Pages/Signin/Signin";
 import CourseInfo from './Pages/CourseInfo/CourseInfo'
 import ArticleInfo from "./Pages/ArticleInfo/ArticleInfo";
+import Contact from './Pages/Contact/Contact'
 
 
 
@@ -12,7 +13,8 @@ const routes = [
     {path:'login' , element : <Login/>},
     {path:'signin' , element : <Signin/>},
     {path:'course-info' , element : <CourseInfo/>},
-    {path:'article-info' , element : <ArticleInfo/>}
+    {path:'article-info' , element : <ArticleInfo/>},
+    {path:'contact' , element : <Contact/>}
 ]
 
 

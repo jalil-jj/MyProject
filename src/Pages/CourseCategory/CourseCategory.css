@@ -1,0 +1,82 @@
+.select-box {
+    position: relative;
+    width: 100%;
+    max-width: 300px; /* هم‌اندازه‌ی input */
+}
+
+.select-box select {
+    width: 100%;
+    padding: 10px 40px 10px 15px; /* مشابه input */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    height: 42px; /* ارتفاع مشابه input */
+    outline: none;
+    font-size: 1rem;
+    appearance: none; /* حذف استایل پیش‌فرض */
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* افکت هنگام فوکوس */
+.select-box select:focus {
+    border-color: #11998e;
+    box-shadow: 0 0 5px rgba(17, 153, 142, 0.5);
+}
+
+/* آیکون فلش سفارشی */
+.select-box::after {
+    content: "▼"; /* فلش سفارشی */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: #888;
+    pointer-events: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.select-box:hover::after {
+    color: #11998e;
+}
+
+
+
+/* Search Box */
+
+.search-box {
+    position: relative;
+    width: 100%;
+    max-width: 300px; /* تنظیم عرض دلخواه */
+}
+
+.search-box input {
+    width: 100%;
+    padding: 10px 40px 10px 15px; /* فضای چپ برای متن، راست برای آیکون */
+    /* border: 2px solid #38ef7d; رنگ سبز زیبا */
+    border-radius: 25px;
+    outline: none;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.search-box input:focus {
+    border-color: #11998e; /* تغییر رنگ در حالت فوکوس */
+    box-shadow: 0 0 5px rgba(17, 153, 142, 0.5);
+}
+
+.search-box svg {
+    position: absolute;
+    left: 12px; /* جایگاه آیکون */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #11998e;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.search-box svg:hover {
+    color: #38ef7d; /* تغییر رنگ در هاور */
+}

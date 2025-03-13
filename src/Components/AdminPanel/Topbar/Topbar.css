@@ -1,0 +1,33 @@
+.input{
+    padding: 10px 15px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    font-size: 14px;
+}
+
+.input:focus{
+    border-color: #4CAF50;
+    box-shadow: 0px 0px 5px rgba(76, 175, 80, 0.5);
+}
+
+.input::placeholder{
+    color: #aaa;
+    font-size: 13px;
+}
+
+.input:hover{
+    border-color: #888;
+}
+
+.admin-profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}

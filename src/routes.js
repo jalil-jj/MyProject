@@ -9,6 +9,7 @@ import CourseCategory from './Pages/CourseCategory/CourseCategory'
 
 import AdminCourses from './Pages/AdminPanel/AdminCourses/AdminCourses'
 import AdminPanel from './Pages/AdminPanel/index'
+import Sessions from "./Pages/AdminPanel/Sessions/Sessions";
 
 
 
@@ -25,7 +26,8 @@ const routes = [
     {
         path : '/p-admin/*' , 
         element : <AdminPanel /> , children : [
-            {path : 'courses' , element : <AdminCourses/>}
+            {path : 'courses' , element : <AdminCourses/>},
+            {path : 'sessions' , element : <Sessions/>}
         ]
     }
 

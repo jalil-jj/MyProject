@@ -11,6 +11,7 @@ import AdminCourses from './Pages/AdminPanel/AdminCourses/AdminCourses'
 import AdminPanel from './Pages/AdminPanel/index'
 import Sessions from "./Pages/AdminPanel/Sessions/Sessions";
 import AdminUsers from "./Pages/AdminPanel/AdminUsers/AdminUsers";
+import Offs from "./Pages/AdminPanel/Offs/Offs";
 
 
 
@@ -29,7 +30,8 @@ const routes = [
         element : <AdminPanel /> , children : [
             {path : 'courses' , element : <AdminCourses/>},
             {path : 'sessions' , element : <Sessions/>},
-            {path : 'users' , element : <AdminUsers/>}
+            {path : 'users' , element : <AdminUsers/>},
+            {path : 'offs' , element : <Offs/>},
         ]
     }
 

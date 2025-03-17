@@ -15,6 +15,7 @@ import Offs from "./Pages/AdminPanel/Offs/Offs";
 import GeneralDiscount from "./Pages/AdminPanel/GeneralDiscount/GeneralDiscount";
 import AdminCategoty from "./Pages/AdminPanel/AdminCategoty/AdminCategoty";
 import AdminTickets from "./Pages/AdminPanel/AdminTickets/AdminTickets";
+import AdminContacts from "./Pages/AdminPanel/AdminContacts/AdminContacts";
 
 
 const routes = [
@@ -37,6 +38,7 @@ const routes = [
             {path : 'general-discount' , element : <GeneralDiscount/>},
             {path : 'category' , element : <AdminCategoty/>},
             {path : 'tickets' , element : <AdminTickets/>},
+            {path : 'contacts' , element : <AdminContacts/>},
         ]
     }
 

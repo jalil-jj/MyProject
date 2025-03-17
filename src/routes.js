@@ -12,6 +12,7 @@ import AdminPanel from './Pages/AdminPanel/index'
 import Sessions from "./Pages/AdminPanel/Sessions/Sessions";
 import AdminUsers from "./Pages/AdminPanel/AdminUsers/AdminUsers";
 import Offs from "./Pages/AdminPanel/Offs/Offs";
+import GeneralDiscount from "./Pages/AdminPanel/GeneralDiscount/GeneralDiscount";
 
 
 
@@ -32,6 +33,7 @@ const routes = [
             {path : 'sessions' , element : <Sessions/>},
             {path : 'users' , element : <AdminUsers/>},
             {path : 'offs' , element : <Offs/>},
+            {path : 'general-discount' , element : <GeneralDiscount/>},
         ]
     }
 
